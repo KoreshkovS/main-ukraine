@@ -1,0 +1,103 @@
+.page__media {
+  margin-top: 50px;
+
+  @media screen and (max-width: 767.98px) {
+    margin-top: 30px;
+  }
+}
+.media {
+}
+.media__container {
+  position: relative;
+}
+.media__image {
+  width: 100%;
+}
+.title {
+}
+.media__title {
+  position: absolute;
+  top: 7%; /* 50/683 */
+  left: 5%; /* 50/1026 */
+  font-size: 35px;
+  @media screen and (max-width: 767.98px) {
+    font-size: 15px;
+  }
+
+  @media screen and (max-width: 479.98px) {
+    padding: 6px 20px 6px 20px;
+    font-size: 10px;
+    top: 2%;
+    &:before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+  }
+}
+.main__accent {
+}
+.media__accent {
+  @media screen and (max-width: 479.98px) {
+    &:before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+  }
+}
+.media__content {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+
+  @media screen and (max-width: 767.98px) {
+    left: 20px;
+    bottom: 20px;
+  }
+
+  @media screen and (max-width: 479.98px) {
+    left: 15px;
+    bottom: 5px;
+  }
+}
+.media__name {
+  padding: 12px 10px;
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: $mainWhite;
+
+  background-color: rgba(4, 15, 133, 0.73);
+  backdrop-filter: blur(4.63834px);
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 479.98px) {
+    font-size: 16px;
+  }
+}
+.media__text {
+  padding: 6px;
+  font-weight: 400;
+  font-size: 21px;
+
+  color: $mainWhite;
+
+  background-color: rgba(0, 22, 255, 0.62);
+  backdrop-filter: blur(4.63834px);
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 479.98px) {
+    font-size: 12px;
+  }
+}

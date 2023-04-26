@@ -14,14 +14,23 @@
   margin-bottom: 23px;
 }
 .main__title {
-  display: inline-block;
   margin-top: 50px;
   margin-bottom: 101px;
   margin-left: 20px;
+
+  font-size: 48px;
+
+  @media screen and (max-width: 479.98px) {
+    font-size: 27px;
+    margin-top: 25px;
+    margin-bottom: 175px;
+  }
+}
+.title {
+  display: inline-block;
   position: relative;
   padding: 6px 43px 6px 43px;
   font-weight: 600;
-  font-size: 48px;
   text-align: center;
   text-transform: uppercase;
   color: $mainWhite;
@@ -47,11 +56,6 @@
     height: 30px;
     border-top: 7.03937px solid #ffffff;
     border-right: 7.03937px solid #ffffff;
-  }
-  @media screen and (max-width: 479.98px) {
-    font-size: 27px;
-    margin-top: 25px;
-    margin-bottom: 175px;
   }
 }
 .main__accent {
@@ -136,7 +140,7 @@
     right: -192px;
   }
   @media screen and (max-width: 767.98px) {
-   height: 366px;
+    height: 366px;
     width: 581px;
   }
   @media screen and (max-width: 479.98px) {
