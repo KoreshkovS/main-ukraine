@@ -1,0 +1,124 @@
+.main__facebook {
+  margin-top: 50px;
+}
+.facebook {
+}
+.facebook__container {
+}
+.facebook__cover {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin: 0 auto;
+  max-width: 735px;
+  background: linear-gradient(136.96deg, #3a82f0 -0.75%, #014bb8 100.56%);
+}
+.facebook__post {
+  margin: 0 auto;
+  max-width: 693px;
+  background-color: $mainWhite;
+  border: 8.575px solid $secondaryBlack;
+  border-radius: 3.675px;
+}
+.facebook__header {
+  margin: 24px 24px 36px 24px;
+  display: flex;
+  gap: 13px;
+}
+.facebook__image {
+  width: 73px;
+  height: 73px;
+}
+.facebook__head {
+}
+.facebook__name {
+  font-size: 20px;
+
+  color: #37689d;
+
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+.facebook__attributes {
+  display: flex;
+  gap: 13px;
+}
+.facebook__time {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: $mainGray;
+}
+.facebook__icon {
+}
+.facebook__body {
+}
+.facebook__text {
+  margin-left: 71px;
+  margin-right: 10px;
+
+  font-weight: 500;
+  font-size: 17px;
+
+  color: $secondaryBlack;
+
+  &:not(:last-child) {
+    margin-bottom: 45px;
+  }
+  @media screen and (max-width: 767.98px) {
+    margin-left: 10px;
+  
+  }
+  @media screen and (max-width: 479.98px) {
+  font-size: 15px;
+  }
+}
+.facebook__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 18px 15px;
+
+  margin: 127px 18px 18px 18px;
+
+  box-shadow: -4.9px -4.9px 4.9px rgba(0, 0, 0, 0.25),
+    4.9px 4.9px 4.9px rgba(0, 0, 0, 0.43);
+
+    @media screen and (max-width: 479.98px) {
+     margin: 50px 10px 10px 10px;
+     padding: 15px 10px;
+    }
+}
+.facebook__likes {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.facebook__like,
+.facebook__heart,
+.facebook__emoji {
+  width: 25px;
+  height: 25px;
+}
+.facebook__count {
+  font-weight: 500;
+  font-size: 15px;
+
+  color: $mainGray;
+}
+.facebook__comments {
+  display: flex;
+  gap: 16px;
+  @media screen and (max-width: 479.98px) {
+  flex-direction: column;
+  row-gap: 5px;
+  }
+}
+.facebook__comment, .facebook__share {
+  font-weight: 500;
+  font-size: 15.6998px;
+
+  color: $mainGray;
+}
+

@@ -1,0 +1,41 @@
+.main__post {
+  margin-top: 50px;
+  @media screen and (max-width: 479.98px) {
+    margin-top: 20px;
+  }
+}
+.post {
+}
+.post__container {
+}
+.post__title {
+  font-size: 28px;
+  line-height: 35px;
+
+  color: $mainRed;
+
+  @media screen and (max-width: 479.98px) {
+    font-size: 22px;
+  }
+}
+.post__signature,
+.post__date {
+  font-weight: 400;
+  font-size: 19px;
+
+  text-align: end;
+
+  color: #858585;
+  @media screen and (max-width: 479.98px) {
+    font-size: 16px;
+  }
+}
+
+.post__text {
+  margin-top: 79px;
+  font-size: 28px;
+  @media screen and (max-width: 479.98px) {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+}
