@@ -1,0 +1,49 @@
+.page__institute {
+  margin-top: 70px;
+  @media screen and (max-width: 767.98px) {
+    margin-top: 30px;
+  }
+}
+.institute {
+}
+.institute__container {
+}
+.institute__top {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.institute__logo {
+}
+.institute__text {
+  max-width: 389px;
+  font-weight: 400;
+  font-size: 22px;
+  margin-top: auto;
+
+  color: #4b4b4b;
+}
+.paragraph__red {
+}
+.text__accent {
+}
+.institute__bottom {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.institute__media {
+  position: relative;
+  max-width: 310px;
+}
+.institute__newpost {
+  position: absolute;
+  top: 24%;
+  left: -17%;
+  width: 121px;
+}
+.institute__map {
+  width: 100%;
+}
+.institute__avocardine {
+}
